@@ -1,0 +1,46 @@
+    :root{
+    --fundo-artistico:radial-gradient(ellipse at top left,rgb(8, 87, 8),rgb(241, 241, 7) ),
+                      radial-gradient(ellipse at bottom left,rgb(86, 228, 86),rgb(86, 228, 86)),
+                      radial-gradient(ellipse at top right,rgb(235, 235, 0),rgb(8, 87, 8)),
+                      radial-gradient(ellipse at bottom right,rgb(8, 87, 8),rgb(248, 248, 8) );
+    }
+    body{
+        color: white;
+        font-family: 'Orbitron', monospace;
+        background-color: black;
+
+    } 
+    .menu a:hover {
+        background:greenyellow;
+        color:black;
+        font-weight: bold;
+        
+
+    }
+    .menu{
+        display: inline-block;
+        padding-left: 20px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: greenyellow; 
+        border-radius: 20px;
+        font-size: larger;
+        padding-right: 10px;
+        gap: 10px;  
+    }
+    .logo{
+        display: inline-block;   
+        justify-content: end;  
+    }
+    #mid{
+        padding-left: 70px;
+        text-decoration: none;
+        color: white;
+        padding-top: 100px;
+    }
+    #mid a{
+     color:greenyellow;
+     text-decoration: none;
+
+    }
