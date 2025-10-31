@@ -18,29 +18,61 @@
 
     }
     .menu{
-        display: inline-block;
+        display: flex;
         padding-left: 20px;
+        justify-content: space-between;
+        
     }
     .menu a{
         text-decoration: none;
         color: greenyellow; 
         border-radius: 20px;
         font-size: larger;
-        padding-right: 10px;
-        gap: 10px;  
+        padding-right: 30px;
+        padding-left: 30px;
+        
     }
     .logo{
         display: inline-block;   
         justify-content: end;  
     }
     #mid{
+        display: flex;
         padding-left: 70px;
         text-decoration: none;
         color: white;
-        padding-top: 100px;
+        padding-top: 200px;
+        
     }
     #mid a{
      color:greenyellow;
      text-decoration: none;
+     display:inline;
+    }
+    #intro{
+        padding-right: 300px;
 
+    }
+    #foto img{
+        border-radius:200px;
+        border-style: groove;
+        border-color: greenyellow;
+    }
+    .about{
+        display: flex;
+        padding: 70px;
+        font-size: medium;
+        gap: 50px;
+        padding-top: 200px;
+    }
+    .about-me{
+        padding-right: 175px;
+    }
+    .circle img{
+        width: 300px;       /* define o tamanho */
+        height: 300px;      /* mantém a proporção quadrada */
+        object-fit: cover;  /* evita distorção e preenche o espaço */
+        border-radius: 50%; 
+        border-style: groove;
+        border-color:greenyellow;
     }
